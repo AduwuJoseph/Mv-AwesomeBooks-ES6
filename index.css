@@ -90,11 +90,11 @@ form {
 }
 
 form input {
-    padding: 7px 7px 7px 2px;
-    height: 30px;
-    font-size: 16px;
-    font-weight: 400;
-    width: 30%;
+  padding: 7px 7px 7px 2px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 30%;
 }
 
 .btn-add {
@@ -144,5 +144,5 @@ footer {
 }
 
 .date {
-    float: right;
+  float: right;
 }

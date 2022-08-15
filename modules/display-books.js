@@ -1,4 +1,4 @@
-export const displayBooks = (list) => {
+export default displayBooks = (list) => {
   let tr = '';
   let sn = 1;
   list.forEach((item) => {

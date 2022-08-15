@@ -1,7 +1,7 @@
-import {submitForm} from './modules/submit-form-data.js';
-import {getLocalStorageData} from './modules/load-data.js';
-import {deleteBooks} from './modules/delete-data.js';
-import {currentDate} from './modules/date.js';
+import { submitForm } from './modules/submit-form-data.js';
+import { getLocalStorageData } from './modules/load-data.js';
+import { deleteBooks } from './modules/delete-data.js';
+import { currentDate } from './modules/date.js';
 
 const listMenu = document.querySelector('#list-menu');
 const formMenu = document.querySelector('#form-menu');
@@ -28,10 +28,10 @@ contactMenu.addEventListener('click', () => {
   listSec.style.display = 'none';
 });
 
-let awesomeBook = document.getElementById('awesome-book');
+const awesomeBook = document.getElementById('awesome-book');
 awesomeBook.style.display = 'none';
-let bttn = document.getElementById('bttn');
-let bookList = [];
+const bttn = document.getElementById('bttn');
+const bookList = [];
 
 bttn.onclick = () => {
   const title = document.getElementById('title');
