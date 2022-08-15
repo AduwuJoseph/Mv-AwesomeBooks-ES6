@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts to use in project -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <section id='awesome-book'>
+      <h2>Book List</h2>
+      <table class="book-list">
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+    <section >
+      <hr>
+      <h2>Add Book</h2>
+      <form id="book-form" method="post">
+        <label for="title"></label>
+        <input id= 'title' type="text" placeholder="title" required> <br>
+        <label for="author"></label> <br>
+        <input id='author' type="text" placeholder="author" required> <br> <br>
+        <button type="button" id="bttn">Add</button>
+      </form>
+    </section>
+    <!-- script file -->
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
