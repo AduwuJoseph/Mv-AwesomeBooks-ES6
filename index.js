@@ -1,7 +1,7 @@
-import { submitForm } from './modules/submit-form-data.js';
-import { getLocalStorageData } from './modules/load-data.js';
-import { deleteBooks } from './modules/delete-data.js';
-import { currentDate } from './modules/date.js';
+import submitForm from './modules/submit-form-data.js';
+import getLocalStorageData from './modules/load-data.js';
+import deleteBooks from './modules/delete-data.js';
+import currentDate from './modules/date.js';
 
 const listMenu = document.querySelector('#list-menu');
 const formMenu = document.querySelector('#form-menu');

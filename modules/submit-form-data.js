@@ -1,4 +1,4 @@
-import { getLocalStorageData } from './load-data.js';
+import getLocalStorageData from './load-data.js';
 
 const submitForm = (title, author, bookList, awesomeBook) => {
   const data = JSON.parse(localStorage.getItem('bookdata'));

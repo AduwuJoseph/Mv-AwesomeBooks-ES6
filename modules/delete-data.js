@@ -1,6 +1,6 @@
-import { getLocalStorageData } from './load-data.js';
+import getLocalStorageData from './load-data.js';
 
-export const deleteBooks = (key, awesomeBook) => {
+const deleteBooks = (key, awesomeBook) => {
   const data = JSON.parse(localStorage.getItem('bookdata'));
   if (data != null && data.length > 0) {
     const item = data[key];
@@ -10,3 +10,5 @@ export const deleteBooks = (key, awesomeBook) => {
   }
   window.location.reload(true);
 };
+
+export default deleteBooks;
