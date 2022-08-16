@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts to use in project -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="#Logo">Awesome Books</a></div>
+      <nav class="hamb-menu">
+        <ul class="nav-list">
+          <li class="list"><a id="list-menu" href="#list">Book List</a></li>
+          <li class="list"><a id="form-menu" href="#add-new"> Add New</a></li>
+          <li class="list"><a id="contact-menu" href="#contact"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="date"></div>
+    <section id='awesome-book'>
+      <h2>All Awesome Books</h2>
+      <table class="book-list">
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+    <section id="add-new">
+      <hr>
+      <h2>Add Book</h2>
+      <form id="book-form" method="post">
+        <label for="title"></label>
+        <input id= 'title' type="text" placeholder="Title" required>
+        <label for="author"></label>
+        <input id='author' type="text" placeholder="Author" required>
+        <button type="button" class="btn-add" id="bttn">Add</button>
+      </form>
+    </section>
+    <section id="contact">
+      <h2 class="contact-text">CONTACT INFORMATION</h2>
+      <p class="contact-text">You can reach us on:</p>
+      <ul class="contact-list">
+        <li>contactus@gmail.com</li>
+        <li>+2348162785817</li>
+        <li>Abuja, Nigeria</li>
+      </ul>
+    </section>
+    <footer >
+      <h2>Copyright @ Awesome Book Publishers</h2>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
